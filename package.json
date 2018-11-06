@@ -4,11 +4,11 @@
   "description": "A 5-colour gauge emoji set, inspired by the NYT Upshot Needle",
   "main": "the-needle.yaml",
   "dependencies": {
-    "emojipacks": "^0.2.1"
+    "slack-emoji-import": "^1.0.3"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "emojipacks -p ./the-needle.yaml"
+    "start": "slack-emoji-import ./the-needle.yaml"
   },
   "repository": {
     "type": "git",
