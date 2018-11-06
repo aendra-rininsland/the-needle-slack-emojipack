@@ -1,0 +1,28 @@
+{
+  "name": "the-needle-slack-emojipack",
+  "version": "1.0.0",
+  "description": "A 5-colour gauge emoji set, inspired by the NYT Upshot Needle",
+  "main": "the-needle.yaml",
+  "dependencies": {
+    "emojipacks": "^0.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "emojipacks -p ./the-needle.yaml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aendrew/aws-slack-emojipack.git"
+  },
+  "keywords": [
+    "slack",
+    "emoji",
+    "emojipacks"
+  ],
+  "author": "Ændrew Rininsland <andrew.rininsland@ft.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aendrew/aws-slack-emojipack/issues"
+  },
+  "homepage": "https://github.com/aendrew/aws-slack-emojipack#readme"
+}
